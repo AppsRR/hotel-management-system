@@ -1,11 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
+    <style>
+        .button {
+            background-color: #04AA6D;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+        body {
+            margin: 0%;
+            background: #f2f2f2;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 30px;
+            margin: 0;
+            padding: 4;
+        }
+
+        h6 {
+            text-align: center;
+            font-size: 48px;
+            margin: 0;
+            padding: 4;
+        }
+
+        .products-view {
+            display: flex;
+            margin: 50px;
+        }
+
+        .product img {
+            width: 28vw;
+            height: 40vh;
+        }
+
+        .product {
+            width: 33%;
+            margin: 15px;
+            padding: 8 4;
+            box-sizing: border-box;
+            float: left;
+            text-align: center;
+            border-radius: 20px;
+            cursor: pointer;
+            padding-top: 10px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Products</h1>
+
+    <header></header>
+
+    </header>
+    <main>
+        <center>
+            <h1>Products</h1>
+        </center>
+        <div class="products-view">
+
+            <div class="product">
+                <img src="./images/laptop.jpg" alt="laptop">
+                <h4>Laptop</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fugiat tempora soluta assumenda
+                    repellendus cum veritatis excepturi, quasi qui consectetur architecto ad reiciendis eveniet
+                    voluptates praesentium nisi alias doloremque odio.</p>
+                <h6>$400</h6>
+                <button class="button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="./images/mobile.jpg" alt="mobile">
+                <h4>Mobile</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fugiat tempora soluta assumenda
+                    repellendus cum veritatis excepturi, quasi qui consectetur architecto ad reiciendis eveniet
+                    voluptates praesentium nisi alias doloremque odio.</p>
+                <h6>$320</h6>
+                <button class="button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="./images/smart_watch.jpg" alt="smart_watch">
+                <h4>Smarty Watch</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fugiat tempora soluta assumenda
+                    repellendus cum veritatis excepturi, quasi qui consectetur architecto ad reiciendis eveniet
+                    voluptates praesentium nisi alias doloremque odio.</p>
+                <h6>$250</h6>
+                <button class="button">Buy Now</button>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
 </body>
+
 </html>
